@@ -2,7 +2,6 @@ import React,{useEffect} from 'react'
 
 function Selection(props) {
     const [background,setBackground] = React.useState({background:""});
-     setBackground({background:back});
     
     const handleSelection = ()=>{
         props.applyColor(setBackground);
